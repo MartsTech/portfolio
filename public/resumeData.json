@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name": "Martin Velkov",
+    "occupation": "Student, Fullstack developer",
+    "description": "Failure is an option here. If things are not failing, you are not innovating enough",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Martin! I'm currently 17 years old and I've been coding for 3 years now. I've cloned many of the most popular web applications like Gmail, LinkedIn, Netflix, WhatsApp, Twitch, Imessage and working on many more. I'm currently pursuing my dream to become developer and I'm open for offers. Coding is the things I am passionate about and I desperately what to leave my mark in the world with it.",
+    "contactmessage": "Get in touch with me!",
+    "email": "martin.e.velkov@gmaiil.com",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "Bulgaria",
+      "state": "",
+      "zip": ""
+    },
+    "website": "#",
+    "resumedownload": "http://papareact.com",
+    "social": [
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCqfC3qHbIe71foZTscyxauQ"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/m.velkov123/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/martin-velkov-228aa91a8/"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/m_velkov123/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/MartsTech"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Simeon Radev High School for Teaching Foreign Languages",
+        "degree": "",
+        "graduated": "Present",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Student",
+        "title": "",
+        "years": "Present",
+        "description": "Focusing on learning German."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Typescript",
+        "level": "85%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "80%"
+      },
+      {
+        "name": "Graphql",
+        "level": "75%"
+      },
+      {
+        "name": "Fullstack Development",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://clone-a3b58.web.app/"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://linkedin-clone-3c9dc.web.app/"
+      },
+      {
+        "title": "Netflix Clone (React JS)",
+        "category": "",
+        "image": "netflix.jpg",
+        "url": "https://netflix-clone-ba14e.web.app/"
+      },
+      {
+        "title": "Amazon Clone (React JS)",
+        "category": "",
+        "image": "amazon.jpg",
+        "url": "https://clone-c5339.web.app/"
+      },
+      {
+        "title": "Twitch Clone (React JS)",
+        "category": "",
+        "image": "twitch.jpg",
+        "url": "https://twitch-clone-92995.web.app/"
+      },
+      {
+        "title": "Imessage Clone (React JS)",
+        "category": "",
+        "image": "imessage.jpg",
+        "url": "https://imessage-clone-840fe.web.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Marty is always passionate about programming and never refuses to answer questions about coding.",
+        "user": "Alex Alexsov"
+      },
+      {
+        "text": "Marty always explains his work with sparks on his eyes and never fails to surprise everyone with his seemingly bottomless energy.",
+        "user": "Boris Lazarov"
+      }
+    ]
+  }
+}
