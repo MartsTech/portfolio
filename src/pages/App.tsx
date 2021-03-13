@@ -8,7 +8,7 @@ import Resume from "../components/Resume";
 import Testimonials from "../components/Testimonials";
 import { ResumeData } from "../types";
 
-const App = () => {
+const App: React.FC = () => {
   const [resumeData, setResumeData] = useState<ResumeData>();
 
   useEffect(() => {

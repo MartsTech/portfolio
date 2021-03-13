@@ -24,6 +24,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
                   <div className="item-wrap">
                     <a href={projects.url} title={projects.title}>
                       <img
+                        className="project_img"
                         alt={projects.title}
                         src={`images/portfolio/${projects.image}`}
                       />
