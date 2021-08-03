@@ -87,6 +87,18 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Amazon Clone (Next JS)",
+        "category": "clones",
+        "image": "amazon.jpg",
+        "url": "https://amazon-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Google Docs Clone (Next JS)",
+        "category": "clones",
+        "image": "google-docs.jpg",
+        "url": "https://google-docs-clone-martstech.vercel.app"
+      },
+      {
         "title": "Hulu Clone (Next JS)",
         "category": "clones",
         "image": "hulu.jpg",
@@ -96,7 +108,7 @@
         "title": "Google Clone (Next JS)",
         "category": "clones",
         "image": "google.jpg",
-        "url": "https://google-clone-red.vercel.app/"
+        "url": "https://google-clone-martstech.vercel.app"
       },
       {
         "title": "Gmail Clone (React JS)",
@@ -127,12 +139,6 @@
         "category": "clones",
         "image": "snapchat.jpg",
         "url": "https://snapchat-clone-4a5ce.web.app/"
-      },
-      {
-        "title": "Amazon Clone (React JS)",
-        "category": "clones",
-        "image": "amazon.jpg",
-        "url": "https://clone-c5339.web.app/"
       },
       {
         "title": "Twitch Clone (React JS)",
