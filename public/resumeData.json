@@ -4,7 +4,7 @@
     "occupation": "Student, Web developer",
     "description": "I eat, sleep and breathe React",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Martin! I'm currently 17 years old and I've been coding for 3 years now. I've cloned many of the most popular web applications like Gmail, LinkedIn, Netflix, WhatsApp, Twitch, Imessage and working on many more. I'm currently pursuing my dream of becomimg a developer and I'm trying my best to become better with each day. Programming is the thing I am the most passionate about and I plan to make a name for myself with it.",
+    "bio": "Hi there! I am Martin! I'm currently 18 years old and I've been coding for 3 years now. I've cloned many of the most popular web applications like Gmail, LinkedIn, Netflix, WhatsApp, Twitch, Imessage and working on many more. I'm currently pursuing my dream of becomimg a developer and I'm trying my best to become better with each day. Programming is the thing I am the most passionate about and I plan to make a name for myself with it.",
     "contactmessage": "Get in touch with me!",
     "email": "martin.e.velkov@gmaiil.com",
     "phone": "+359 897 357 213",
@@ -27,7 +27,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/m_velkov123/"
+        "url": "https://www.instagram.com/martstech/"
       },
       {
         "name": "facebook",
@@ -59,20 +59,24 @@
         "level": "100%"
       },
       {
-        "name": "Redux",
+        "name": ".NET",
         "level": "100%"
       },
       {
-        "name": "Typescript",
+        "name": "React Native",
         "level": "90%"
       },
       {
-        "name": "NodeJs",
+        "name": "SQL",
         "level": "80%"
       },
       {
-        "name": "Graphql",
+        "name": "NodeJs",
         "level": "75%"
+      },
+      {
+        "name": "Docker",
+        "level": "70%"
       },
       {
         "name": "Web Development",
@@ -93,16 +97,28 @@
         "url": "https://amazon-clone-martstech.vercel.app"
       },
       {
+        "title": "Netflix Clone (Next JS)",
+        "category": "clones",
+        "image": "netflix.jpg",
+        "url": "https://netflix-clone-martstech.vercel.app"
+      },
+      {
         "title": "Google Docs Clone (Next JS)",
         "category": "clones",
         "image": "google-docs.jpg",
         "url": "https://google-docs-clone-martstech.vercel.app"
       },
       {
-        "title": "Hulu Clone (Next JS)",
+        "title": "Uber Clone (React Native)",
         "category": "clones",
-        "image": "hulu.jpg",
-        "url": "https://hulu-clone-blue.vercel.app/"
+        "image": "uber.jpg",
+        "url": "https://github.com/MartsTech/uber-clone"
+      },
+      {
+        "title": "Snapchat Clone (React Native)",
+        "category": "clones",
+        "image": "snapchat.jpg",
+        "url": "https://github.com/MartsTech/snapchat-clone"
       },
       {
         "title": "Google Clone (Next JS)",
@@ -111,46 +127,76 @@
         "url": "https://google-clone-martstech.vercel.app"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "clones",
-        "image": "gmail.jpg",
-        "url": "https://clone-a3b58.web.app/"
-      },
-      {
-        "title": "Netflix Clone (React JS)",
-        "category": "clones",
-        "image": "netflix.jpg",
-        "url": "https://netflix-clone-ba14e.web.app/"
-      },
-      {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "clones",
-        "image": "linkedin.jpg",
-        "url": "https://linkedin-clone-3c9dc.web.app/"
-      },
-      {
         "title": "Slack Clone (React JS)",
         "category": "clones",
         "image": "slack.jpg",
-        "url": "https://slack-clone-9cae4.web.app/"
+        "url": "https://slack-clone-martstech.vercel.app"
       },
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Airbnb Clone (Next JS)",
         "category": "clones",
-        "image": "snapchat.jpg",
-        "url": "https://snapchat-clone-4a5ce.web.app/"
+        "image": "airbnb.jpg",
+        "url": "https://airbnb-clone-martstech.vercel.app"
       },
       {
-        "title": "Twitch Clone (React JS)",
+        "title": "Facebook Clone (Next JS)",
         "category": "clones",
-        "image": "twitch.jpg",
-        "url": "https://twitch-clone-92995.web.app/"
+        "image": "facebook.jpg",
+        "url": "https://facebook-clone-martstech.vercel.app"
       },
       {
-        "title": "Imessage Clone (React JS)",
+        "title": "Hulu Clone (Next JS)",
         "category": "clones",
-        "image": "imessage.jpg",
-        "url": "https://imessage-clone-840fe.web.app/"
+        "image": "hulu.jpg",
+        "url": "https://hulu-clone-martstech.vercel.app"
+      },
+      {
+        "title": "LinkedIn Clone (Next JS)",
+        "category": "clones",
+        "image": "linkedin.jpg",
+        "url": "https://linkedin-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Signal Clone (React Native)",
+        "category": "clones",
+        "image": "signal.jpg",
+        "url": "https://github.com/MartsTech/signal-clone"
+      },
+      {
+        "title": "Spotify Clone (Next JS)",
+        "category": "clones",
+        "image": "spotify.jpg",
+        "url": "https://spotify-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Whatsapp Clone (Next JS)",
+        "category": "clones",
+        "image": "whatsapp.jpg",
+        "url": "https://whatsapp-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "clones",
+        "image": "gmail.jpg",
+        "url": "https://gmail-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Instagram Clone (Next JS)",
+        "category": "clones",
+        "image": "instagram.jpg",
+        "url": "https://instagram-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Medium Clone (Next JS)",
+        "category": "clones",
+        "image": "medium.jpg",
+        "url": "https://medium-clone-martstech.vercel.app"
+      },
+      {
+        "title": "Tinder Clone (React Native)",
+        "category": "clones",
+        "image": "tinder.jpg",
+        "url": "https://github.com/MartsTech/tinder-clone"
       }
     ]
   },
