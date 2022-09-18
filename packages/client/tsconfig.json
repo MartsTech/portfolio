@@ -17,7 +17,8 @@
     "paths": {
       "@app/*": ["./src/app/*"],
       "@common/*": ["./src/common/*"],
-      "@features/*": ["./src/features/*"]
+      "@features/*": ["./src/features/*"],
+      "@ui/*": ["./src/ui/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
