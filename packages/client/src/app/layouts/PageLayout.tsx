@@ -10,7 +10,7 @@ interface Props {
 
 const PageLayout: FC<Props> = ({ title, description, children }) => {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-background text-white">
       <Head>
         <title>{title ?? appConfig.APP_NAME}</title>
         <meta

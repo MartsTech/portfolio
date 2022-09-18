@@ -24,10 +24,10 @@ const SocialIcon: FC<Props> = ({ url, type }) => {
     <>
       {typeof url !== "undefined" ? (
         <Link href={url}>
-          <Icon className="h-6 w-6 cursor-pointer fill-gray-600" />
+          <Icon className="h-6 w-6 cursor-pointer fill-gray-400" />
         </Link>
       ) : (
-        <Icon className="h-6 w-6 fill-gray-600" />
+        <Icon className="h-6 w-6 fill-gray-400" />
       )}
     </>
   );
