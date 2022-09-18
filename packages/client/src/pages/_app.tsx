@@ -1,5 +1,5 @@
 import "@app/styles/globals.css";
-import { AppPropsWithLayout } from "@app/types/page";
+import type { AppPropsWithLayout } from "@app/types/page";
 
 const App = ({ Component, pageProps }: AppPropsWithLayout) => {
   const getLayout = Component.getLayout ?? ((page) => page);

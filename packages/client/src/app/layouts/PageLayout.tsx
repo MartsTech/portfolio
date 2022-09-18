@@ -15,7 +15,11 @@ const PageLayout: FC<Props> = ({ title, description, children }) => {
         <title>{title ?? appConfig.APP_NAME}</title>
         <meta
           name="description"
-          content={description ?? "Portfolio created with Next.js"}
+          content={description ?? appConfig.APP_DESCRIPTION}
+        />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
