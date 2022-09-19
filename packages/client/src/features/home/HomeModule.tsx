@@ -1,3 +1,4 @@
+import About from "@ui/about";
 import Banner from "@ui/banner";
 import Header from "@ui/header";
 
@@ -8,8 +9,11 @@ const HomeModule = () => {
       scrollbar"
     >
       <Header />
-      <section id="banner" className="snap-center">
+      <section id="banner" className="snap-start">
         <Banner />
+      </section>
+      <section id="about" className="snap-center">
+        <About />
       </section>
     </div>
   );

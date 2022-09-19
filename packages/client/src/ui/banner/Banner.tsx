@@ -8,8 +8,8 @@ const Banner = () => {
   const [text] = useTypewriter({
     words: [
       "I'm Martin Velkov",
-      "Software-Developer.tsx",
-      "<LovesToCodeInReact />",
+      "Eat, sleep and breathe React",
+      "<LovesToCode />",
     ],
     loop: true,
     delaySpeed: 2000,
