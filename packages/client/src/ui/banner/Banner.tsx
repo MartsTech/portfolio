@@ -1,7 +1,8 @@
+import TypewriterCursor from "@features/typewriter/TypewriterCursor";
+import { useTypewriter } from "@features/typewriter/typewriter-hooks";
 import avatar from "@image/avatar.jpg";
 import BackgroundCircles from "@ui/background/BackgroundCircles";
 import Image from "next/image";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BannerLink from "./BannerLink";
 
 const Banner = () => {
@@ -39,7 +40,7 @@ const Banner = () => {
         </h2>
         <h1 className="px-10 text-2xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl">
           <span>{text}</span>
-          <Cursor cursorColor="#A855F7" />
+          <TypewriterCursor cursorColor="#A855F7" />
         </h1>
         <div className="pt-5">
           <BannerLink title="About" href="#about" />
