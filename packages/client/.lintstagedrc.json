@@ -1,0 +1,5 @@
+{
+  "*.{ts,tsx}": ["check-types"],
+  "*.{js,jsx,ts,tsx}": ["check-lint"],
+  "*.{json,md,html,js,jsx,ts,tsx}": ["check-format"]
+}
