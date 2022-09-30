@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build",
+    "build": "sanity build public -y",
+    "test": "sanity check",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -28,6 +29,7 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "@sanity/cli": "^2.34.0",
     "@types/node": "^18.7.18",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
