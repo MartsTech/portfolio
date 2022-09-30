@@ -1,12 +1,5 @@
 {
   "root": true,
-  "project": {
-    "name": "portfolio"
-  },
-  "api": {
-    "projectId": "qg7h7knn",
-    "dataset": "production"
-  },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
