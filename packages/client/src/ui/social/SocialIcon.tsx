@@ -1,9 +1,10 @@
+import type { SocialType } from "@features/profile/profile-types";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import type { FC } from "react";
 
 interface Props {
-  type: "facebook" | "instagram" | "linkedin" | "gmail" | "github";
+  type: SocialType;
   url?: string;
 }
 

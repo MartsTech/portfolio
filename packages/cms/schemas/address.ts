@@ -4,14 +4,14 @@ export default {
   type: "document",
   fields: [
     {
-      name: "town",
-      title: "Town",
+      name: "country",
+      title: "Country",
       type: "string",
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "country",
-      title: "Country",
+      name: "town",
+      title: "Town",
       type: "string",
       validation: (Rule) => Rule.required(),
     },

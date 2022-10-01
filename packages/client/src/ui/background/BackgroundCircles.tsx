@@ -21,8 +21,8 @@ const BackgroundCircles = () => {
         rounded-full border border-gray-600"
       />
       <div
-        className="absolute mt-52 h-[500px] w-[500px] animate-ping 
-        rounded-full border border-gray-600"
+        className="absolute mt-52 h-[500px] w-[500px] 
+        rounded-full border border-purple-500/80 opacity-20"
       />
       <div
         className="absolute mt-52 h-[650px] w-[650px] animate-pulse

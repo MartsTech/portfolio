@@ -4,6 +4,24 @@ export default {
   type: "document",
   fields: [
     {
+      name: "started",
+      title: "Started",
+      type: "date",
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "ended",
+      title: "Ended",
+      type: "date",
+    },
+    {
+      name: "description",
+      title: "Description",
+      type: "array",
+      of: [{ type: "string" }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: "position",
       title: "Position",
       type: "reference",
@@ -18,29 +36,11 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "description",
-      title: "Description",
-      type: "array",
-      of: [{ type: "string" }],
-      validation: (Rule) => Rule.required(),
-    },
-    {
       name: "technologies",
       title: "Technologies",
       type: "array",
       of: [{ type: "reference", to: { type: "technology" } }],
       validation: (Rule) => Rule.required(),
-    },
-    {
-      name: "started",
-      title: "Started",
-      type: "date",
-      validation: (Rule) => Rule.required(),
-    },
-    {
-      name: "ended",
-      title: "Ended",
-      type: "date",
     },
   ],
   preview: {

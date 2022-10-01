@@ -4,6 +4,18 @@ export default {
   type: "document",
   fields: [
     {
+      name: "environment",
+      title: "Environment",
+      type: "string",
+      options: {
+        list: [
+          { title: "Production", value: "production" },
+          { title: "Development", value: "development" },
+        ],
+      },
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: "name",
       title: "Name",
       type: "string",
@@ -27,6 +39,41 @@ export default {
       title: "Position",
       type: "reference",
       to: [{ type: "position" }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "about",
+      title: "About",
+      type: "reference",
+      to: [{ type: "about" }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "experiences",
+      title: "Experiences",
+      type: "array",
+      of: [{ type: "reference", to: { type: "experience" } }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "projects",
+      title: "Projects",
+      type: "array",
+      of: [{ type: "reference", to: { type: "project" } }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "technologies",
+      title: "Technologies",
+      type: "array",
+      of: [{ type: "reference", to: { type: "technology" } }],
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "contact",
+      title: "Contact",
+      type: "reference",
+      to: [{ type: "contact" }],
       validation: (Rule) => Rule.required(),
     },
   ],

@@ -21,11 +21,10 @@ export default {
       type: "string",
       options: {
         list: [
-          { title: "Facebook", value: "facebook" },
-          { title: "Instagram", value: "instagram" },
-          { title: "LinkedIn", value: "linkedin" },
-          { title: "Gmail", value: "gmail" },
           { title: "GitHub", value: "github" },
+          { title: "LinkedIn", value: "linkedin" },
+          { title: "Instagram", value: "instagram" },
+          { title: "Facebook", value: "facebook" },
         ],
       },
       validation: (Rule) => Rule.required(),
