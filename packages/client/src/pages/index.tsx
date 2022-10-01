@@ -25,4 +25,4 @@ HomePage.getLayout = (page: ReactElement) => {
 //   };
 // });
 
-// export default HomePage;
+export default HomePage;
