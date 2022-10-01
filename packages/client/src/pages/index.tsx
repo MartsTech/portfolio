@@ -14,15 +14,15 @@ HomePage.getLayout = (page: ReactElement) => {
   return <PageLayout>{page}</PageLayout>;
 };
 
-export const getStaticProps = storeWrapper.getStaticProps((store) => {
-  return async () => {
-    store.dispatch(profileApi.endpoints.getProfile.initiate());
-    await Promise.all(getRunningOperationPromises());
+// export const getStaticProps = storeWrapper.getStaticProps((store) => {
+//   return async () => {
+//     store.dispatch(profileApi.endpoints.getProfile.initiate());
+//     await Promise.all(getRunningOperationPromises());
 
-    return {
-      props: {},
-    };
-  };
-});
+//     return {
+//       props: {},
+//     };
+//   };
+// });
 
-export default HomePage;
+// export default HomePage;
