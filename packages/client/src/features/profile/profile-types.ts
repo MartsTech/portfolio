@@ -1,5 +1,9 @@
 import type { CmsImage } from "@app/cms/cms-types";
 
+export interface ProfileHydrated {
+  profile: ProfileModel;
+}
+
 export interface ProfileModel {
   _type: "profile";
   _id: string;
@@ -39,7 +43,7 @@ export interface AboutModel {
   _createdAt: string;
   _updatedAt: string;
   title: string;
-  description: string;
+  description: any[];
   image: CmsImage;
 }
 
@@ -123,4 +127,9 @@ export interface SocialModel {
   type: SocialType;
 }
 
-export type SocialType = "github" | "linkedin" | "instagram" | "facebook";
+export type SocialType =
+  | "github"
+  | "linkedin"
+  | "instagram"
+  | "facebook"
+  | "gmail";

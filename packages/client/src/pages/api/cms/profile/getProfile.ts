@@ -9,9 +9,11 @@ type Data = {
 
 const handler = async (_req: NextApiRequest, res: NextApiResponse<Data>) => {
   const client = getCmsClient(false);
+
   const profile: ProfileModel = await client.fetch(getProfileQuery, {
     environment: "production",
   });
+
   res.status(200).json({ profile });
 };
 
