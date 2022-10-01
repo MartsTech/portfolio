@@ -3,6 +3,7 @@ import type { RootState } from "@app/store/store-types";
 import { createAction, createReducer } from "@reduxjs/toolkit";
 import type {
   AboutModel,
+  ExperienceModel,
   PositionModel,
   ProfileHydrated,
   ProfileModel,
@@ -58,6 +59,10 @@ export const profilePositionSelector = (
 
 export const profileEmailSelector = (state: RootState): string | undefined =>
   state.profile.profile?.contact.email;
+
+export const profileExperienceCollectionSelector = (
+  state: RootState
+): ExperienceModel[] | undefined => state.profile.profile?.experiences;
 
 export const profileSocialsCollectionSelector = (
   state: RootState
