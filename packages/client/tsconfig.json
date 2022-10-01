@@ -18,7 +18,6 @@
       "@app/*": ["./src/app/*"],
       "@common/*": ["./src/common/*"],
       "@features/*": ["./src/features/*"],
-      "@ui/*": ["./src/ui/*"],
       "@image/*": ["./images/*"]
     }
   },

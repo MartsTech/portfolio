@@ -21,7 +21,7 @@ const About = () => {
       >
         <h3
           className="mb-10 text-2xl uppercase tracking-[20px] text-gray-500
-        md:mb-0"
+          md:mb-0"
         >
           About
         </h3>
@@ -34,23 +34,23 @@ const About = () => {
             transition={{ duration: 1.2 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
-            className="md:h-95 relative h-56 w-56 flex-shrink-0 
-          md:w-64 lg:h-[500px] lg:w-[400px] xl:h-[600px] 
-          xl:w-[500px]"
+            className="relative h-56 w-56 flex-shrink-0 
+            md:h-96 md:w-[300px] xl:h-[600px] 
+            xl:w-[500px]"
           >
             <Image
-              src={about ? cmsUrlFor(about.image).url() : ""}
+              src={about ? cmsUrlFor(about.image).auto("format").url() : ""}
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               alt="about"
               className="rounded-full md:rounded-lg"
             />
           </motion.div>
           <p
-            className="h-[300px] max-h-[650px] max-w-xl overflow-y-scroll
-          whitespace-pre-line px-5 text-justify text-sm 
-          scrollbar-thin scrollbar-track-white sm:h-auto
-          md:px-10 md:text-base"
+            className="h-[300px] max-h-[600px] max-w-xl overflow-y-scroll
+            whitespace-pre-line px-5 text-justify text-sm 
+            scrollbar-thin scrollbar-track-white md:h-auto
+            md:px-10 md:text-base"
           >
             {about?.description}
           </p>

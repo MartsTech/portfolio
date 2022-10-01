@@ -3,7 +3,7 @@ import {
   profileEmailSelector,
   profileSocialsCollectionSelector,
 } from "@features/profile/profile-state";
-import SocialIcon from "@ui/social/SocialIcon";
+import SocialIcon from "@features/ui/social/SocialIcon";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ const Header = () => {
     <header
       className="xl:items sticky top-0 z-20 mx-auto mt-auto
       flex max-w-7xl items-start justify-between 
-      overflow-hidden p-8"
+      overflow-hidden p-4"
     >
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
