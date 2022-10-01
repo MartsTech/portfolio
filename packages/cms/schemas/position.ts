@@ -14,7 +14,10 @@ export default {
       title: "Type",
       type: "string",
       options: {
-        list: [{ title: "Part-time", value: "part-time" }],
+        list: [
+          { title: "Full-time", value: "full-time" },
+          { title: "Part-time", value: "part-time" },
+        ],
       },
       validation: (Rule) => Rule.required(),
     },
