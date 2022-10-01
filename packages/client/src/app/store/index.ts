@@ -16,4 +16,4 @@ const makeStore = () =>
       getDefaultMiddleware().concat(baseApi.middleware, profileMiddleware),
   });
 
-export const storeWrapper = createWrapper(makeStore, { debug: true });
+export const storeWrapper = createWrapper(makeStore);

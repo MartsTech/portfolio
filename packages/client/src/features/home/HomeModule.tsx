@@ -1,6 +1,6 @@
-import About from "@ui/about";
-import Banner from "@ui/banner";
-import Header from "@ui/header";
+import About from "@features/ui/about";
+import Banner from "@features/ui/banner";
+import Header from "@features/ui/header";
 
 const HomeModule = () => {
   return (

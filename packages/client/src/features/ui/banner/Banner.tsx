@@ -6,7 +6,7 @@ import {
 } from "@features/profile/profile-state";
 import { useTypewriter } from "@features/typewriter/typewriter-hooks";
 import TypewriterCursor from "@features/typewriter/TypewriterCursor";
-import BackgroundCircles from "@ui/background/BackgroundCircles";
+import BackgroundCircles from "@features/ui/background/BackgroundCircles";
 import Image from "next/image";
 import BannerLink from "./BannerLink";
 
