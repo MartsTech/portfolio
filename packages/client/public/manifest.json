@@ -1,10 +1,10 @@
 {
-  "name": "portfolio",
-  "short_name": "portfolio",
+  "name": "Martin Velkov",
+  "short_name": "Martin Velkov",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
+  "theme_color": "rgb(36,36,36)",
+  "background_color": "rgb(36,36,36)",
   "start_url": "/",
   "icons": [
     {

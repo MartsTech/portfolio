@@ -25,11 +25,11 @@ const BackgroundCircles = () => {
         rounded-full border border-purple-500/80 opacity-20"
       />
       <div
-        className="absolute mt-52 h-[650px] w-[650px] animate-pulse
+        className="absolute mt-52 h-[600px] w-[600px] animate-pulse
         rounded-full border border-purple-500/80 opacity-20"
       />
       <div
-        className="absolute mt-52 h-[800px] w-[800px]
+        className="absolute mt-52 h-[750px] w-[750px]
         rounded-full border border-purple-500/80 opacity-20"
       />
     </motion.div>
