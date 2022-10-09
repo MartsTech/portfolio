@@ -12,22 +12,22 @@ const Experience = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="mx-auto flex h-screen max-w-full flex-col 
-      items-center justify-evenly overflow-hidden px-10"
+      items-center justify-evenly overflow-hidden"
     >
       <div
         className="flex h-[80vh] w-full flex-col 
         items-center justify-evenly sm:h-[85vh]"
       >
         <h3
-          className="text-2xl uppercase tracking-[20px]
-        text-gray-500"
+          className="text-2xl uppercase 
+          tracking-[16px] text-gray-500"
         >
           Experience
         </h3>
         <div
           className="flex w-full snap-x snap-mandatory 
-          space-x-5 overflow-x-scroll p-14 scrollbar
-         scrollbar-track-accent"
+          space-x-5 overflow-x-scroll pt-4
+          scrollbar-thin scrollbar-track-accent"
         >
           {experiences?.map((experience) => (
             <ExperienceItem key={experience._id} experience={experience} />

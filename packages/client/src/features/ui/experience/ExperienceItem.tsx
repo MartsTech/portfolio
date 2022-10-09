@@ -12,10 +12,11 @@ interface Props {
 const ExperienceItem: FC<Props> = ({ experience }) => {
   return (
     <article
-      className="mx-auto flex w-[350px] flex-shrink-0 
-      cursor-pointer snap-center flex-col items-center space-y-7
-      rounded-lg bg-accent p-4 hover:opacity-90 sm:w-[400px] 
-      sm:p-9 md:w-[500px] xl:w-[600px]"
+      className="mx-auto flex h-full w-[350px] 
+      flex-shrink-0 cursor-pointer snap-center flex-col items-center
+      space-y-7 overflow-scroll rounded-lg bg-accent p-4 
+      scrollbar hover:opacity-90 sm:w-[400px] sm:p-9
+      md:w-[500px]"
     >
       <motion.div
         initial={{ y: -100, opacity: 0 }}

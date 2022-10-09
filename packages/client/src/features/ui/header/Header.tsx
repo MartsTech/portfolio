@@ -13,9 +13,9 @@ const Header = () => {
 
   return (
     <header
-      className="xl:items sticky top-0 z-20 mx-auto mt-auto
-      flex max-w-7xl items-start justify-between 
-      overflow-hidden p-4"
+      className="sticky top-0 z-20 mx-auto mt-auto flex
+      max-w-7xl items-start justify-between overflow-hidden 
+      p-4 xl:items-center"
     >
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
