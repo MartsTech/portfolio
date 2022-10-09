@@ -13,15 +13,15 @@ const About = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="mx-auto flex h-screen max-w-7xl flex-col 
-      items-center justify-evenly px-6"
+      items-center justify-evenly px-2 sm:px-6"
     >
       <div
-        className="flex h-[80vh] flex-col items-center justify-evenly
-        sm:h-[85vh]"
+        className="flex h-[80vh] flex-col items-center 
+        justify-evenly sm:h-[85vh]"
       >
         <h3
-          className="mb-10 text-2xl uppercase tracking-[20px] text-gray-500
-          md:mb-0"
+          className="mb-10 mt-10 text-2xl uppercase
+          tracking-[20px] text-gray-500 md:mb-0"
         >
           About
         </h3>
@@ -34,9 +34,8 @@ const About = () => {
             transition={{ duration: 1.2 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
-            className="relative h-56 w-56 flex-shrink-0 
-            md:h-96 md:w-[300px] xl:h-[600px] 
-            xl:w-[500px]"
+            className="relative h-32 w-32 flex-shrink-0 sm:h-56 
+            sm:w-56 md:h-96 md:w-[300px] xl:h-[600px] xl:w-[500px]"
           >
             <Image
               src={about ? cmsUrlFor(about.image).auto("format").url() : ""}
@@ -49,7 +48,7 @@ const About = () => {
           <p
             className="h-[300px] max-h-[600px] max-w-xl overflow-y-scroll
             whitespace-pre-line px-5 text-justify text-sm 
-            scrollbar-thin scrollbar-track-white md:h-auto
+            scrollbar-thin scrollbar-track-accent md:h-auto
             md:px-10 md:text-base"
           >
             {about?.description}
