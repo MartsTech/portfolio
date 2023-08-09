@@ -15,23 +15,6 @@ class Document extends NextDocument {
     return (
       <Html lang="en" dir="ltr">
         <Head>
-          <script
-            type="text/javascript"
-            async
-            dangerouslySetInnerHTML={{
-              __html: `
-              (function(w, d, s, l, i) {
-                    w[l] = w[l] || []
-                    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
-                    const f = d.getElementsByTagName(s)[0],
-                      j = d.createElement(s),
-                      dl = l != "dataLayer" ? "&l=" + l : ""
-                    j.async = true
-                    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
-                    f.parentNode.insertBefore(j, f)
-                  })(window,document,'script','dataLayer',"GTM-NKQP5249")`,
-            }}
-          />
           <meta name="application-name" content={appConfig.APP_NAME} />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
@@ -46,6 +29,7 @@ class Document extends NextDocument {
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#FFFFFF" />
+          <link rel="import" href="/gtm.html" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -61,7 +45,7 @@ class Document extends NextDocument {
         <body>
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=GTM-NKQP5249`}
+              src="https://www.googletagmanager.com/ns.html?id=GTM-KL8GLG8B"
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
