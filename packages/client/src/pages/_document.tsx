@@ -29,7 +29,6 @@ class Document extends NextDocument {
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#FFFFFF" />
-          <link rel="import" href="/gtm.html" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -43,14 +42,6 @@ class Document extends NextDocument {
           />
         </Head>
         <body>
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-NKQP5249"
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            />
-          </noscript>
           <Main />
           <NextScript />
         </body>
