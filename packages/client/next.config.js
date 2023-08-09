@@ -5,19 +5,6 @@ const nextConfig = {
   images: {
     domains: ["cdn.sanity.io"],
   },
-  headers: async () => {
-    return [
-      {
-        source: "/gtm.html",
-        headers: [
-          {
-            key: "content-type",
-            value: "text/html",
-          },
-        ],
-      },
-    ];
-  },
 };
 
 const withPWA = require("next-pwa")({
