@@ -45,7 +45,7 @@ class Document extends NextDocument {
         <body>
           <noscript>
             <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-KL8GLG8B"
+              src="https://www.googletagmanager.com/ns.html?id=GTM-NKQP5249"
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
